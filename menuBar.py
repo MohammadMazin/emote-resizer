@@ -31,6 +31,11 @@ class MenuBar:
     def aboutMe(self):
         # show details of my twitter link in message box give button that opens link to twitter
         messagebox.showinfo(
-            "About Me",
-            "This is a simple image resizer. It was created by @jamesjosephdev. You can find more of my work at https://jamesjoseph.dev"
+            "About This Software",
+            """An application that resized images for twitch badges and bits.
+            For Bugs, issues and suggesstions, you can contact me on
+
+            Twitter: @kayleberries
+            Github: https://github.com/MohammadMazin
+            """
         )
